@@ -1,0 +1,9 @@
+Flask
+python-dotenv
+Flask-Cors
+requests
+pydantic
+langchain
+langchain-community
+openai
+tiktoken

@@ -1,0 +1,7 @@
+{
+  "required_skills": ["Python", "Flask", "Django", "MySQL", "Git"],
+  "min_years": 2,
+  "education": "本科",
+  "job_title": "后端开发工程师",
+  "job_description": "负责公司后端系统开发，使用Python技术栈，参与系统架构设计和优化。"
+}

@@ -1,0 +1,34 @@
+{
+  "documents": [
+    {
+      "filename": "recruitment_policy.txt",
+      "title": "公司招聘政策",
+      "tags": ["招聘政策", "招聘流程", "招聘原则"],
+      "description": "公司的招聘政策、流程和要求"
+    },
+    {
+      "filename": "faq.txt",
+      "title": "常见问题解答",
+      "tags": ["FAQ", "常见问题", "投递", "面试", "薪资"],
+      "description": "招聘相关的常见问题和答案"
+    },
+    {
+      "filename": "technical_requirements.txt",
+      "title": "技术岗位要求",
+      "tags": ["技术岗位", "岗位职责", "任职要求"],
+      "description": "各类技术岗位的职责和要求"
+    },
+    {
+      "filename": "interview_process.txt",
+      "title": "面试流程",
+      "tags": ["面试", "流程", "注意事项"],
+      "description": "面试的流程、重点和注意事项"
+    },
+    {
+      "filename": "benefits.txt",
+      "title": "薪资福利",
+      "tags": ["薪资", "福利", "晋升", "待遇"],
+      "description": "公司的薪资结构和福利待遇"
+    }
+  ]
+}
