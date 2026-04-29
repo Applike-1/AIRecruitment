@@ -19,9 +19,12 @@ logs/*.log
 
 # Environment
 .env
+.env.local
+.env.*.local
 
 # Chroma DB
 chroma_db/
+app/knowledge_base/vector_store/
 
 # OS
 .DS_Store
