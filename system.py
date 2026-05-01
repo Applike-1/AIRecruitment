@@ -1,3 +1,4 @@
+import os
 import requests
 import json
 import sys
@@ -9,7 +10,7 @@ if sys.platform == 'win32':
 
 # API基础URL
 API_BASE_URL = 'http://localhost:5000/api'
-API_KEY = 'test_key_123'
+API_KEY = os.getenv('TEST_API_KEY', 'your_api_key_here')
 
 def test_resume_scoring():
     """测试简历评分功能"""

@@ -1,8 +1,9 @@
+import os
 import requests
 import json
 
 BASE_URL = 'http://127.0.0.1:5000'
-API_KEY = 'test_key_123'
+API_KEY = os.getenv('TEST_API_KEY', 'your_api_key_here')
 
 def test_qa_ask():
     print('测试 /api/qa/ask...')

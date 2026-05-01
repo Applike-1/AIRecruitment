@@ -1,3 +1,4 @@
+import os
 import requests
 import time
 from typing import Optional, Dict, Any
@@ -5,7 +6,7 @@ from app.utils.logger import logger
 
 MCP_PLATFORM_URL = 'https://mcp.platform.internal'
 MCP_APP_ID = 'ai_recruitment_system'
-MCP_APP_SECRET = 'mock_secret_key'
+MCP_APP_SECRET = os.getenv('MCP_APP_SECRET', 'your_app_secret_here')
 
 class MCPClient:
     def __init__(self, platform_url: str = None, app_id: str = None, app_secret: str = None):
