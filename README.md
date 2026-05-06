@@ -4,6 +4,12 @@
 
 ## 功能特性
 
+### 系统界面预览
+
+![招聘问答与简历筛选](https://raw.githubusercontent.com/Applike-1/AIRecruitment/main/screenshots/screenshot1.png)
+
+![模拟面试](https://raw.githubusercontent.com/Applike-1/AIRecruitment/main/screenshots/screenshot2.png)
+
 ### 🤖 AI招聘咨询
 - 基于RAG（检索增强生成）的智能问答系统
 - 支持招聘政策、常见问题、面试流程等知识库查询
